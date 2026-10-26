@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Sparkles, CheckCircle2, Lock, Shield, Award, Headphones, ShieldCheck, Zap, WifiOff } from 'lucide-react';
+import { Sparkles, CheckCircle2, Lock, Shield, Award, Headphones, ShieldCheck, Zap, CloudLightning } from 'lucide-react';
 import PhoneMockup from './PhoneMockup';
 
 const YoutubeIcon = ({ style, className }) => (
@@ -75,14 +75,14 @@ const tabFeatures = [
     tabIcon: Headphones,
     tag: 'Science-Backed Flow',
     title: 'Focus in deep rounds, rest on time',
-    desc: 'Work in science-backed 25-minute or 50-minute flow rounds with built-in rest periods. Play ambient rain, lo-fi beats, or binaural waves right inside your offline session.',
+    desc: 'Work in science-backed 25-minute or 50-minute flow rounds with built-in rest periods. Play ambient rain, lo-fi beats, or binaural waves right inside your focus session.',
     variant: 'audio',
     highlights: [
       'Customizable flow & rest intervals',
-      'Offline ambient sound player (Rain, Lo-Fi, Cafe)',
+      'Built-in ambient sound player (Rain, Lo-Fi, Cafe)',
       'Audio-haptic completion chimes'
     ],
-    badgeText: 'Offline Audio Engine'
+    badgeText: 'Integrated Audio Engine'
   }
 ];
 
@@ -336,7 +336,7 @@ export default function FeatureGrid() {
             gap: '24px'
           }}
         >
-          {/* Bento 1: Offline First */}
+          {/* Bento 1: Cloud Sync */}
           <div
             className="glass-card"
             style={{
@@ -360,13 +360,13 @@ export default function FeatureGrid() {
                 marginBottom: '20px'
               }}
             >
-              <WifiOff style={{ width: '20px', height: '20px', color: '#00E599' }} />
+              <CloudLightning style={{ width: '20px', height: '20px', color: '#00E599' }} />
             </div>
             <h4 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.25rem', fontWeight: 700, color: '#fff', marginBottom: '8px' }}>
-              100% Offline-First Engine
+              Real-Time Cloud Sync
             </h4>
             <p style={{ color: '#8F95A5', fontSize: '0.9rem', lineHeight: 1.6 }}>
-              Zero latency and zero telemetry. All app blocking logic executes natively on your hardware. Works in airplane mode with 0 bytes uploaded to remote servers.
+              Instant cloud synchronization across all your study sessions. Your daily study minutes, unbroken streaks, and squad leaderboard ranks stay live and up-to-date.
             </p>
           </div>
 

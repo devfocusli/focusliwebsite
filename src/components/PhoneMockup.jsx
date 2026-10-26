@@ -82,13 +82,13 @@ export default function PhoneMockup({ variant = 'timer', tilt = 0, scale = 1 }) 
             <div className="w-1-5 h-1-5 rounded-full bg-emerald-400 animate-pulse" />
           </div>
 
-          {/* Right Status (Offline + Signal) */}
+          {/* Right Status (Live Sync + Signal) */}
           <div className="flex items-center gap-1-5" style={{ minWidth: '42px', justifyContent: 'flex-end' }}>
-            <span style={{ color: '#00E599', fontWeight: 800, fontSize: '9px', letterSpacing: '0.04em' }}>OFFLINE</span>
+            <span style={{ color: '#00E599', fontWeight: 800, fontSize: '9px', letterSpacing: '0.04em' }}>SYNCED</span>
             <div className="flex items-center gap-0-5">
               <div className="indicator-3 h-2 rounded-sm" style={{ background: '#00E599' }} />
-              <div className="indicator-3 h-3 rounded-sm" style={{ background: '#00E599' }} />
               <div className="indicator-3 h-2-5 rounded-sm" style={{ background: '#00E599' }} />
+              <div className="indicator-3 h-3 rounded-sm" style={{ background: '#00E599' }} />
             </div>
           </div>
         </div>

@@ -72,7 +72,7 @@ export default function TermsOfUse({ setActivePage }) {
           <section>
             <h2 className="text-xl font-bold text-white mb-3">5. Disclaimer of Warranties</h2>
             <p>
-              Focusli is provided "AS IS" and "AS AVAILABLE" without warranties of any kind. While Focusli strives to deliver zero-friction offline execution, we do not guarantee uninterrupted or error-free operation across every Android hardware variant.
+              Focusli is provided "AS IS" and "AS AVAILABLE" without warranties of any kind. While Focusli strives to deliver zero-friction cloud synchronization and execution, we do not guarantee uninterrupted or error-free operation across every Android hardware variant.
             </p>
           </section>
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Sparkles, Shield, QrCode } from 'lucide-react';
-import { GooglePlayBadge, AppStoreBadge } from './StoreBadges';
+import { GooglePlayBadge /*, AppStoreBadge */ } from './StoreBadges';
 
 export default function DownloadBox() {
   const [showQr, setShowQr] = useState(false);
@@ -32,13 +32,14 @@ export default function DownloadBox() {
             </h2>
 
             <p className="mt-5 text-base sm-text-xl text-muted max-w-lg mx-auto">
-              Join 500,000+ ambitious students crushing their exam goals. Free to download on Android &amp; iOS.
+              Join 500,000+ ambitious students crushing their exam goals. Free to download on Android.{/* &amp; iOS */}
             </p>
 
             {/* Badges */}
             <div className="mt-10 flex flex-col sm-flex-row items-center justify-center gap-4">
               <GooglePlayBadge className="w-full sm-w-auto justify-center" />
-              <AppStoreBadge className="w-full sm-w-auto justify-center" />
+              {/* iOS app currently in development */}
+              {/* <AppStoreBadge className="w-full sm-w-auto justify-center" /> */}
 
               {/* QR Toggle button (visible on desktop/tablet only) */}
               <button
@@ -108,12 +109,12 @@ export default function DownloadBox() {
             <div className="mt-8 flex flex-wrap items-center justify-center gap-4 sm-gap-6 text-xs text-white-60">
               <span className="flex items-center gap-1-5">
                 <Shield className="w-3-5 h-3-5 text-brand" />
-                Zero telemetry
+                End-to-end encrypted
               </span>
               <span>•</span>
               <span>No credit card needed</span>
               <span>•</span>
-              <span>100% Offline Core</span>
+              <span>Real-Time Cloud Sync</span>
             </div>
 
           </div>

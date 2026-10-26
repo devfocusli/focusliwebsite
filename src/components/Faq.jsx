@@ -18,8 +18,8 @@ export default function Faq() {
       a: "Yes! That is one of Focusli's signature features. You can keep YouTube open for educational video lectures or Instagram for essential DMs while the infinite-scroll feeds (Reels, Shorts, Explore tabs) remain strictly locked."
     },
     {
-      q: "Does Focusli work completely offline in airplane mode?",
-      a: "100% yes. Focusli is built on an Offline-First architecture. The timer, app blocker, ambient sounds, and local screen time analytics execute directly on your phone's hardware without needing internet or Wi-Fi."
+      q: "Does Focusli sync my study progress across devices?",
+      a: "Yes. Focusli is fully connected with real-time cloud sync. Your focus hours, unbroken streaks, squad rankings, and customized app blocklists stay seamlessly backed up and updated live across all your study sessions."
     },
     {
       q: "Why does Focusli require Android Accessibility and Usage permissions?",

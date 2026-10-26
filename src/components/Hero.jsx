@@ -1,7 +1,7 @@
 import React from 'react';
 import { Sparkles, Star, Award, Lock, Flame } from 'lucide-react';
 import PhoneMockup from './PhoneMockup';
-import { GooglePlayBadge, AppStoreBadge } from './StoreBadges';
+import { GooglePlayBadge /*, AppStoreBadge */ } from './StoreBadges';
 
 export default function Hero() {
   return (
@@ -93,7 +93,7 @@ export default function Hero() {
                 maxWidth: '540px'
               }}
             >
-              The offline-first study timer that kills distractions. Block Reels &amp; Shorts, lock down your study time with Strict Mode, and make every hour count.
+              The focus app that kills distractions. Block Reels &amp; Shorts, lock down your study time with Strict Mode, and make every hour count.
             </p>
 
             {/* Download buttons */}
@@ -107,7 +107,8 @@ export default function Hero() {
               }}
             >
               <GooglePlayBadge />
-              <AppStoreBadge />
+              {/* iOS app currently in development */}
+              {/* <AppStoreBadge /> */}
             </div>
 
             {/* Trust laurels */}
@@ -127,7 +128,7 @@ export default function Hero() {
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Award style={{ width: '15px', height: '15px', color: '#00E599' }} />
-                <span style={{ fontSize: '13px', fontWeight: 600, color: 'rgba(255,255,255,0.8)' }}>Zero Telemetry • 100% Offline</span>
+                <span style={{ fontSize: '13px', fontWeight: 600, color: 'rgba(255,255,255,0.8)' }}>Real-Time Squad Sync • Cloud Backup</span>
               </div>
             </div>
           </div>

@@ -18,7 +18,7 @@ export default function Footer({ setActivePage }) {
         <div className="flex items-center gap-4 sm-gap-6 text-center sm-text-left">
           <div 
             className="relative w-24 h-24 sm-w-28 sm-h-28 flex items-center justify-center shrink-0 mx-auto"
-            aria-label="Focusli Labs - Privacy First - 100% Offline"
+            aria-label="Focusli Labs - Real-Time Sync - Live Squads"
           >
             {/* Circular text SVG spinning slowly */}
             <svg 
@@ -35,7 +35,7 @@ export default function Footer({ setActivePage }) {
               </defs>
               <text className="text-11 font-mono tracking-stamp fill-white-60 uppercase">
                 <textPath href="#footerTextPath" startOffset="50%" textAnchor="middle">
-                  • FOCUSLI LABS • PRIVACY FIRST • 100% OFFLINE •
+                  • FOCUSLI LABS • REAL-TIME SYNC • LIVE SQUADS •
                 </textPath>
               </text>
             </svg>

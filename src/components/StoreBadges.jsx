@@ -84,6 +84,7 @@ export function GooglePlayBadge({ className = '', style = {} }) {
   );
 }
 
+// Note: iOS app currently in development - AppStoreBadge is commented out from active UI
 export function AppStoreBadge({ className = '', style = {} }) {
   return (
     <a

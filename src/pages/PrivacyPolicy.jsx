@@ -52,10 +52,10 @@ export default function PrivacyPolicy({ setActivePage }) {
             </div>
             <div>
               <h3 className="text-lg font-bold text-white">
-                Our Core Privacy Commitment: 100% Offline-First
+                Our Core Privacy Commitment: Privacy-First &amp; Encrypted Sync
               </h3>
               <p className="mt-2 text-sm text-white-80 leading-relaxed">
-                Focusli is architected as an <strong>Offline-First productivity engine</strong>. We firmly believe that your screen time, app usage habits, study timers, and personal focus routines belong exclusively to you. Your usage logs are stored locally on your physical device. <strong>We do not collect, transmit, profile, or sell your private app activity to any third parties.</strong>
+                Focusli is architected as a <strong>Privacy-First productivity platform with secure cloud synchronization</strong>. We firmly believe that your screen time, app usage habits, study timers, and personal focus routines belong exclusively to you. Your study stats are securely synchronized with end-to-end encryption. <strong>We do not profile, sell, or monetize your private app activity to any third parties.</strong>
               </p>
             </div>
           </div>
@@ -214,7 +214,7 @@ export default function PrivacyPolicy({ setActivePage }) {
               <span className="text-brand">5.</span> How We Protect Your Data
             </h2>
             <p>
-              We implement industry-standard encryption protocols (AES-256 for local sensitive caches, TLS 1.3 for optional squad cloud requests). Our zero-telemetry architecture ensures that the vast majority of your data never touches an external network wire in the first place.
+              We implement industry-standard encryption protocols (AES-256 for local sensitive caches, TLS 1.3 for squad cloud requests). Our secure architecture ensures that your data is encrypted both in transit and at rest.
             </p>
           </section>
 
@@ -248,7 +248,7 @@ export default function PrivacyPolicy({ setActivePage }) {
               <span className="text-brand">8.</span> Your Rights (GDPR, CCPA & Indian DPDP Act)
             </h2>
             <p>
-              Depending on your jurisdiction, you have the right to access, rectify, port, or erase any personal information held by Focusli. Because Focusli operates offline-first, you can exercise these rights directly within the application without needing to submit external support tickets.
+              Depending on your jurisdiction, you have the right to access, rectify, port, or erase any personal information held by Focusli. You can exercise these rights directly within the application settings or by contacting our team.
             </p>
           </section>
 

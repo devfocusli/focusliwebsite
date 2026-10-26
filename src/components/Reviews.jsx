@@ -30,7 +30,7 @@ export default function Reviews() {
     {
       id: 'rahul',
       category: 'UPSC',
-      quote: "The 100% offline feature is why I chose Focusli. I study in airplane mode at the library without internet distractions, and my screen time dropped from 6 hours to 45 minutes.",
+      quote: "Focus Squads and Strict Mode completely changed how I study. Seeing live study streaks from other aspirants at the library pushed me to drop my screen time from 6 hours to 45 minutes.",
       author: "Rahul Mehrotra",
       role: "UPSC CSE Aspirant",
       score: "Prelims 118 Marks",
