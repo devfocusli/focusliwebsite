@@ -218,7 +218,7 @@ export default function PrivacyPolicy({ setActivePage }) {
               <li className="p-4 rounded-xl bg-card border border-white-10">
                 <div className="flex items-center gap-2 text-white font-semibold mb-1">
                   <Bell className="w-4 h-4 text-brand" />
-                  <span>Exact Alarms (SCHEDULE_EXACT_ALARM &amp; USE_EXACT_ALARM)</span>
+                  <span>Exact Alarms (SCHEDULE_EXACT_ALARM)</span>
                 </div>
                 <p className="text-sm text-white-70">
                   <strong>Purpose:</strong> Used by <code>SchedulerAlarmReceiver</code> to trigger your recurring study routines with millisecond precision at the exact start and end times you configure. Restored automatically after phone reboots via <code>RECEIVE_BOOT_COMPLETED</code>.
