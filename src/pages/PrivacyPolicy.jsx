@@ -382,7 +382,7 @@ export default function PrivacyPolicy({ setActivePage }) {
                 <strong>One-Tap Local Wipe:</strong> In the Focusli app under <code>Settings &gt; Data &amp; Storage</code>, you can wipe all local session logs, schedules, and cached statistics instantly.
               </li>
               <li>
-                <strong>Cloud Data Deletion:</strong> You can request complete deletion of any synchronized session records associated with your anonymous Device ID by emailing <code>privacy@focusli.app</code> or submitting a request via our in-app support channel. We process all deletion requests within 30 days.
+                <strong>Cloud Data Deletion:</strong> You can request complete deletion of any synchronized session records associated with your anonymous Device ID by emailing <code>dev.focusli@gmail.com</code> or submitting a request via our in-app support channel. We process all deletion requests within 30 days.
               </li>
               <li>
                 <strong>App Uninstallation:</strong> Uninstalling the application completely erases all local app data and encryption keys from your device hardware.
@@ -396,7 +396,7 @@ export default function PrivacyPolicy({ setActivePage }) {
               <span className="text-brand">9.</span> Children &amp; Student Privacy
             </h2>
             <p>
-              Focusli is specifically tailored to assist high school, college, and competitive exam students (such as JEE, NEET, UPSC, CA, and Board exams). We do not knowingly collect personal identifiable information from children under 13 without verified parental consent. If a parent or guardian becomes aware that their child has provided unauthorized data, please contact us immediately at <code>privacy@focusli.app</code> for expedited removal.
+              Focusli is specifically tailored to assist high school, college, and competitive exam students (such as JEE, NEET, UPSC, CA, and Board exams). We do not knowingly collect personal identifiable information from children under 13 without verified parental consent. If a parent or guardian becomes aware that their child has provided unauthorized data, please contact us immediately at <code>dev.focusli@gmail.com</code> for expedited removal.
             </p>
           </section>
 
@@ -430,8 +430,8 @@ export default function PrivacyPolicy({ setActivePage }) {
               </div>
               <div>
                 <p className="text-white font-semibold">Focusli Legal &amp; Privacy Operations</p>
-                <a href="mailto:privacy@focusli.app" className="text-brand hover-underline text-sm font-medium">
-                  privacy@focusli.app
+                <a href="mailto:dev.focusli@gmail.com" className="text-brand hover-underline text-sm font-medium">
+                  dev.focusli@gmail.com
                 </a>
                 <p className="text-xs text-muted mt-0-5">
                   Focusli Labs • Bengaluru, Karnataka, India

@@ -87,7 +87,7 @@ export default function Footer({ setActivePage }) {
             Terms of Use
           </button>
           <a 
-            href="mailto:support@focusli.app" 
+            href="mailto:dev.focusli@gmail.com" 
             className="hover-text-white transition-colors text-inherit no-underline"
           >
             Support

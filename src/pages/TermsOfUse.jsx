@@ -79,7 +79,7 @@ export default function TermsOfUse({ setActivePage }) {
           <section className="pt-6 border-t border-white-10">
             <h2 className="text-xl font-bold text-white mb-3">6. Questions</h2>
             <p>
-              For legal inquiries regarding our terms, email us at <a href="mailto:terms@focusli.app" className="text-brand hover-underline">terms@focusli.app</a>.
+              For legal inquiries regarding our terms, email us at <a href="mailto:dev.focusli@gmail.com" className="text-brand hover-underline">dev.focusli@gmail.com</a>.
             </p>
           </section>
 
